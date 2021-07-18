@@ -1,0 +1,22 @@
+body {
+    text-align:center;
+    font-size:30px;
+    background:#515E63;
+    color:#EEEEEE;
+}
+
+#quote {
+    margin: 10%;
+}
+
+#button {
+    background:#B2B1B9;
+    color: #EEEEEE;
+    border-radius: 10px;
+    padding:15px;
+    margin:20px;
+    position:absolute;
+    left:50%;
+    top:60%;
+    transform: translateX(-50%)
+}
