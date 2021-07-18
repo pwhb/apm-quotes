@@ -1,6 +1,6 @@
 body {
     text-align:center;
-    font-size:30px;
+    font-size:20px;
     background:#515E63;
     color:#EEEEEE;
 }
@@ -12,6 +12,7 @@ body {
 #button {
     background:#B2B1B9;
     color: #EEEEEE;
+    font-size:20px;
     border-radius: 10px;
     padding:15px;
     margin:20px;
