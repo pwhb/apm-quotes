@@ -42,7 +42,7 @@ const quotes = ["ကျေးဇူးပြု၍ ဖင်ကိုင်ခ�
     "Pussy is cute but I'm way more cuter"];
 
 
-const buttons = ["သိပြီ သိပြီ", "လီး", "ဟုတ်ပြီ၊ ဟုတ်ပြီ၊ ဟုတ်ပြီ", "ktv က ဆော်ကြီးကစားတယ်ဗျာ", "သုံးသပ်ပေးမယ်"]
+const buttons = ["သိပြီ သိပြီ", "လီး", "ဟုတ်ပြီ၊ ဟုတ်ပြီ၊ ဟုတ်ပြီ", "ktv က ဆော်ကြီးက စားတယ်ဗျာ", "သုံးသပ်ပေးမယ်"]
 
 
 document.addEventListener("DOMContentLoaded", function () {
