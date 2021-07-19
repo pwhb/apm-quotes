@@ -57,6 +57,8 @@ const buttons = ["သိပြီ သိပြီ", "ဟုတ်ပြီ၊ �
 
 const images = ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg", "7.jpg", "8.jpg", "9.jpg", "10.jpg", "11.jpg", "12.jpg", "13.jpg", "14.jpg"];
 
+const colors = ["#CC99FF", "#A9D1F7", "#B4F0A7", "#FFFFBF", "#FFDFBE", "#FFB1B0"]
+
 document.addEventListener("DOMContentLoaded", function () {
     load_quote();
 })
@@ -66,7 +68,11 @@ function load_quote() {
     document.querySelector("#image").innerHTML = `<img src="images/${random_image}" alt="random apm picture">`
     const random_quote = quotes[Math.floor(Math.random() * quotes.length)];
     document.querySelector("#quote").innerHTML = random_quote;
+    const random_color1 = colors[Math.floor(Math.random() * colors.length)]
+    document.querySelector("#quote").style.color = random_color1;
     const random_button = buttons[Math.floor(Math.random() * buttons.length)];
     document.querySelector("#button_frame").innerHTML = `<button id="button">${random_button}</button>`;
+    const random_color2 = colors[Math.floor(Math.random() * colors.length)]
+    document.querySelector("button").style.color = random_color2;
     document.querySelector("#button").onclick = load_quote
 }
