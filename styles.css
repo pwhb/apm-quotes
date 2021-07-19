@@ -5,9 +5,10 @@ body {
     color:#EEEEEE;
 }
 
-#image {
-    width:100px;
-    margin:0 auto 0;
+img {
+    width:70%;
+    display: block;
+    margin: 0 auto;
 }
 
 #quote {
