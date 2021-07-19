@@ -5,6 +5,10 @@ body {
     color:#EEEEEE;
 }
 
+#image {
+    margin:0 30% 0;
+}
+
 #quote {
     margin: 10%;
 }

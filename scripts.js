@@ -53,14 +53,17 @@ const quotes = [
 
 
 const buttons = ["သိပြီ သိပြီ", "ဟုတ်ပြီ၊ ဟုတ်ပြီ၊ ဟုတ်ပြီ",
-    "ktv က ဆော်ကြီးက စားတယ်ဗျာ", "သုံးသပ်ပေးမယ်", "ငါမမူးဘူး", "လီးစကား လာပြောနေ", "လီးအလုပ်တွေ မလုပ်နဲ့"]
+    "ktv က ဆော်ကြီးက စားတယ်ဗျာ", "သုံးသပ်ပေးမယ်", "ငါမမူးဘူး", "လီးစကား လာပြောနေ", "လီးအလုပ်တွေ မလုပ်နဲ့"];
 
+const images = ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg", "7.jpg", "8.jpg", "9.jpg", "10.jpg", "11.jpg", "12.jpg", "13.jpg", "14.jpg"];
 
 document.addEventListener("DOMContentLoaded", function () {
     load_quote();
 })
 
 function load_quote() {
+    const random_image = images[Math.floor(Math.random() * images.length)]
+    document.querySelector("#image").innerHTML = `<img src="images/${random_image}" alt="random apm picture">`
     const random_quote = quotes[Math.floor(Math.random() * quotes.length)];
     document.querySelector("#quote").innerHTML = random_quote;
     const random_button = buttons[Math.floor(Math.random() * buttons.length)];
