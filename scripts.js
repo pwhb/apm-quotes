@@ -1,4 +1,8 @@
-const quotes = ["ကျေးဇူးပြု၍ ဖင်ကိုင်ခွင့်ပေးပါလား",
+const quotes = [
+    "ဖင်ခံရေးအတွေးအခေါ်အား တလျောက်လုံး ကိုင်ဆွဲလားပြီး နောက်ဆုံး ဖင်ပြဲသွားတော့မှ 'ဟာ ငါ့ဖင်ဘာလို့ပြဲသွားတာလဲ ဟင်' လို့မမေးပါနှင့် သောက်ခွက်ရိုက်ခံရနည်",
+    
+    "ကျေးဇူးပြု၍ ဖင်ကိုင်ခွင့်ပေးပါလား",
+
     "I'm not the only one who said this kind of weird stuffs. fuck u",
 
     "gym ဆော့ပြီး thot တွေကို လက်စားချေမယ်‌ဗျာ",
@@ -53,6 +57,6 @@ function load_quote() {
     const random_quote = quotes[Math.floor(Math.random() * quotes.length)];
     document.querySelector("#quote").innerHTML = random_quote;
     const random_button = buttons[Math.floor(Math.random() * buttons.length)];
-    document.querySelector("#button_frame").innerHTML =  `<button id="button">${random_button}</button>`;
+    document.querySelector("#button_frame").innerHTML = `<button id="button">${random_button}</button>`;
     document.querySelector("#button").onclick = load_quote
 }
