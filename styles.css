@@ -1,29 +1,46 @@
 body {
-    text-align:center;
-    font-size:30px;
-    background:#515E63;
-    color:#EEEEEE;
+  text-align: center;
+  font-size: 30px;
+  background: #515e63;
+  color: #eeeeee;
 }
 
 img {
-    width:60%;
-    display: block;
-    margin: 5% auto;
-    border-radius: 30px;
+  width: 60%;
+  display: block;
+  margin: 5% auto;
+  border-radius: 30px;
 }
 
 #quote {
-    margin: 3% 10%;
-    color: #FFED99;
-    font-size: 16px;
+  margin: 3% 10%;
+  color: #ffed99;
+  font-size: 16px;
 }
 
 #button {
-    background:#858588;
-    color: #EEEEEE;
-    font-size:16px;
-    font-weight: bold;
-    border-radius: 10px;
-    padding:5px;
-    margin:20px;
+  background: #858588;
+  color: #eeeeee;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 20px;
+}
+
+@media (min-device-width: 1081px) {
+  img {
+    margin: 2% auto;
+    width: 20%;
+  }
+
+  #quote {
+    margin: 2% 30%;
+    font-size: 24px;
+  }
+
+  #button {
+    font-size: 24px;
+    padding: 10px;
+  }
 }
