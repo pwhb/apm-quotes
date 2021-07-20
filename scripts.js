@@ -59,6 +59,10 @@ const images = ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg", "7.jpg", "
 
 const colors = ["#CC99FF", "#A9D1F7", "#B4F0A7", "#FFFFBF", "#FFDFBE", "#FFB1B0"]
 
+const button_colors = ["#d68282", "#d6c782", "#b9d682", "#82d69e", "#82d0d6", "#8291d6", "#c582d6", "#d69a82"]
+
+const background_colors = ["#5f5163","#535163", "#515e63", "#516353", "#636351", "#635851", "#635151", ]
+
 document.addEventListener("DOMContentLoaded", function () {
     load_quote();
 })
@@ -72,7 +76,9 @@ function load_quote() {
     document.querySelector("#quote").style.color = random_color1;
     const random_button = buttons[Math.floor(Math.random() * buttons.length)];
     document.querySelector("#button_frame").innerHTML = `<button id="button">${random_button}</button>`;
-    const random_color2 = colors[Math.floor(Math.random() * colors.length)]
-    document.querySelector("button").style.color = random_color2;
+    const random_color2 = button_colors[Math.floor(Math.random() * button_colors.length)]
+    document.querySelector("button").style.background = random_color2;
+    const random_color3 = background_colors[Math.floor(Math.random() * background_colors.length)];
+    document.querySelector("body").style.background = random_color3;
     document.querySelector("#button").onclick = load_quote
 }

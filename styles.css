@@ -1,7 +1,7 @@
 body {
   text-align: center;
   font-size: 30px;
-  background: #515e63;
+  background: #635158;
   color: #eeeeee;
 }
 
@@ -19,8 +19,7 @@ img {
 }
 
 #button {
-  background: #858588;
-  color: #eeeeee;
+  color: #ece1e1;
   font-size: 16px;
   font-weight: bold;
   border-radius: 10px;
