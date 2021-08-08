@@ -72,7 +72,7 @@ const quotes = ["အဖိုချင်းလိင်ဆက်ဆံတယ်
 const buttons = ["သိပြီ သိပြီ", "ဟုတ်ပြီ၊ ဟုတ်ပြီ၊ ဟုတ်ပြီ",
     "ktv က ဆော်ကြီးက စားတယ်ဗျာ", "သုံးသပ်ပေးမယ်", "ငါမမူးဘူး", "ဖန်တီးပေးမယ်", "လီးအလုပ်တွေ မလုပ်နဲ့"];
 
-const images = ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg", "7.jpg", "8.jpg", "9.jpg", "10.jpg", "11.jpg", "12.jpg", "13.jpg", "14.jpg", "15.jpg"];
+const images = ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg", "7.jpg", "8.jpg", "9.jpg", "10.jpg", "11.jpg", "12.jpg", "13.jpg", "14.jpg", "15.jpg", "16.jpg"];
 
 const colors = ["#CC99FF", "#A9D1F7", "#B4F0A7", "#FFFFBF", "#FFDFBE", "#FFB1B0"]
 
